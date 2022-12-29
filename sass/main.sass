@@ -1,0 +1,114 @@
+@import "style"
+
+body
+	font-family: 'Overpass', sans-serif
+	font-weight: 400
+	font-size: 15px
+	background: $vdark-blue
+	height: 100vh
+	@include flexbox
+	justify-content: center
+	align-items: center
+	color: $white
+
+.rating,
+.rating_thanks
+	@include flexbox()
+	flex-direction: column
+	justify-content: space-between
+	width: 415px
+	height: 415px
+	border-radius: 30px
+	background: linear-gradient(0deg, #171d26 0%, #1c2430 120%)
+	padding: 40px 45px
+
+.circle
+	background: $dark-blue
+	width: 64px
+	height: 64px
+	position: relative
+	border-radius: 50%
+	&>*
+		position: absolute
+		top: 50%
+		left: 50%
+		transform: translate(-50%,-50%)
+	img
+		width: 50%
+		height: auto
+.rating-title
+	h1
+		font-weight: 700
+		font-size: 27px
+		letter-spacing: 0.015em
+	h2 
+		font-size: 17px 
+		font-weight: 400 
+		line-height: 157% 
+		padding-right: 1px 
+		color: $l-grey
+
+.rating-num
+	@include flexbox()
+	justify-content: space-between
+
+.rating-btn
+	border: none
+	background: $dark-blue
+	color: $white
+	font-size: 1.2rem
+	width: 100% 
+	height: 100% 
+	border-radius: 50% 
+	transition: background .3s ease
+	cursor: pointer
+	&:hover
+		background: $m-grey
+	&:active
+		background: $orange
+	&-active
+		background: $orange
+
+.rating-submit
+	button[type="submit"]
+		width: 100%
+		height: 60px
+		border-radius: 25px
+		text-transform: uppercase
+		background: $orange
+		color: $white
+		border: none 
+		transition: .3s ease
+		transition-property: background, color
+		cursor: pointer
+		&:hover
+			background: $white
+			color: $orange
+
+
+.rating_thanks
+	align-items: center
+	text-align: center
+	& > *
+		margin: 0
+	img
+		width: 50%
+		height: auto
+	.selected
+		color: $orange
+		padding: 10px 15px 7px
+		border-radius: 10px
+		letter-spacing: 0.015em
+		background: $dark-blue
+	h1
+		font-weight: 700
+		font-size: 27px
+		letter-spacing: 0.015em
+		margin-bottom: -35px
+	h2 
+		font-size: 17px 
+		font-weight: 400 
+		line-height: 157% 
+		padding-right: 1px 
+		color: $l-grey
+		letter-spacing: 0.5px
