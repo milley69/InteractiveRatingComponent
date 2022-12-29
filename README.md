@@ -1,6 +1,6 @@
 ## Screenshots
 
-![App Screenshot](design/desktop-previeww.jpg)
+![App Screenshot](design/desktop-preview.jpg)
 
 ## Color Reference
 
