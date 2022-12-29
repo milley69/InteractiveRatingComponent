@@ -1,17 +1,17 @@
 ## Screenshots
 
-![App Screenshot](design/desktop-preview.jpg)
+![App Screenshot](design/desktop-previeww.jpg)
 
 ## Color Reference
 
 | Color        | Hex                                                               |
 | ------------ | ----------------------------------------------------------------- |
-| Orange        | ![#fb7413 ](https://via.placeholder.com/10/fb7413?text=+) #fb7413 |
-| White   | ![#ffffff](https://via.placeholder.com/10/ffffff?text=+) #ffffff  |
-| Light Grey | ![#959eac](https://via.placeholder.com/10/959eac?text=+) #959eac  |
-| Medium Grey    | ![#	7c8798](https://via.placeholder.com/10/7c8798?text=+) #7c8798  |
-| Dark Blue    | ![#	252d37](https://via.placeholder.com/10/252d37?text=+) #252d37  |
-| Very Dark Blue    | ![#	121417](https://via.placeholder.com/10/121417?text=+) #121417  |
+| Orange        | ![#fb7413](https://placehold.co/10x10/fb7413/fb7413.png) #fb7413 |
+| White   | ![#FFFFFF](https://placehold.co/10x10/FFFFFF/FFFFFF.png) #FFFFFF  |
+| Light Grey | ![#959eac](https://placehold.co/10x10/959eac/959eac.png) #959eac  |
+| Medium Grey    | ![#7c8798](https://placehold.co/10x10/7c8798/7c8798.png) #7c8798  |
+| Dark Blue    | ![#252d37](https://placehold.co/10x10/252d37/252d37.png) #252d37  |
+| Very Dark Blue    | ![#121417](https://placehold.co/10x10/121417/121417.png) #121417  |
 
 
 ## Typography
