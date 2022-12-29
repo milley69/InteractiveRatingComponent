@@ -17,7 +17,6 @@ section {
   display: block;
 }
 
-
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
@@ -29,11 +28,9 @@ main {
   display: block;
 }
 
-
 figure {
   margin: 1em 40px;
 }
-
 
 hr {
   box-sizing: content-box;
@@ -41,12 +38,10 @@ hr {
   overflow: visible;
 }
 
-
 pre {
   font-family: monospace, monospace;
   font-size: 1em;
 }
-
 
 a {
   background-color: transparent;
@@ -76,22 +71,18 @@ samp {
   font-size: 1em;
 }
 
-
 dfn {
   font-style: italic;
 }
-
 
 mark {
   background-color: #ff0;
   color: #000;
 }
 
-
 small {
   font-size: 80%;
 }
-
 
 sub,
 sup {
@@ -114,7 +105,6 @@ video {
   display: inline-block;
 }
 
-
 audio:not([controls]) {
   display: none;
   height: 0;
@@ -124,11 +114,9 @@ img {
   border-style: none;
 }
 
-
 svg:not(:root) {
   overflow: hidden;
 }
-
 
 button,
 input,
@@ -141,18 +129,15 @@ textarea {
   margin: 0;
 }
 
-
 button,
 input {
   overflow: visible;
 }
 
-
 button,
 select {
   text-transform: none;
 }
-
 
 button,
 html [type="button"],
@@ -160,7 +145,6 @@ html [type="button"],
 [type="submit"] {
   -webkit-appearance: button;
 }
-
 
 button::-moz-focus-inner,
 [type="button"]::-moz-focus-inner,
@@ -170,7 +154,6 @@ button::-moz-focus-inner,
   padding: 0;
 }
 
-
 button:-moz-focusring,
 [type="button"]:-moz-focusring,
 [type="reset"]:-moz-focusring,
@@ -178,11 +161,9 @@ button:-moz-focusring,
   outline: 1px dotted ButtonText;
 }
 
-
 fieldset {
   padding: 0.35em 0.75em 0.625em;
 }
-
 
 legend {
   box-sizing: border-box;
@@ -193,17 +174,14 @@ legend {
   white-space: normal;
 }
 
-
 progress {
   display: inline-block;
   vertical-align: baseline;
 }
 
-
 textarea {
   overflow: auto;
 }
-
 
 [type="checkbox"],
 [type="radio"] {
@@ -211,24 +189,20 @@ textarea {
   padding: 0;
 }
 
-
 [type="number"]::-webkit-inner-spin-button,
 [type="number"]::-webkit-outer-spin-button {
   height: auto;
 }
-
 
 [type="search"] {
   -webkit-appearance: textfield;
   outline-offset: -2px;
 }
 
-
 [type="search"]::-webkit-search-cancel-button,
 [type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
-
 
 ::-webkit-file-upload-button {
   -webkit-appearance: button;
@@ -240,21 +214,17 @@ menu {
   display: block;
 }
 
-
 summary {
   display: list-item;
 }
-
 
 canvas {
   display: inline-block;
 }
 
-
 template {
   display: none;
 }
-
 
 [hidden] {
   display: none;
